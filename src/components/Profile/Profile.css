@@ -1,0 +1,9 @@
+.Profile {
+    grid-area: main;
+    background-color: #D7E5EE;
+}
+
+.Profile__img {
+    max-height: 150px;
+    width: 100%;
+}

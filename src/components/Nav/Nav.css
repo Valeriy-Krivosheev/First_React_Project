@@ -1,0 +1,22 @@
+.nav {
+    grid-area: nav;
+    background-color: #f4f0e8;
+}
+
+.nav__list {
+    list-style: none;
+    padding: 10px;
+}
+
+.nav__item {
+    margin-bottom: 20px;
+}
+
+.nav__link {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}

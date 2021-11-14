@@ -14,9 +14,4 @@
 
 .nav__link {
     color: #000;
-    text-decoration: none;
-}
-
-.nav__link:hover {
-    text-decoration: underline;
 }

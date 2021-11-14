@@ -1,0 +1,22 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 50px;
+}
+
+.about__item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+}
+
+.about__img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.about__info span {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}

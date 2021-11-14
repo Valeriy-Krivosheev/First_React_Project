@@ -1,5 +1,6 @@
 import React from "react";
 import My_posts from "./My_posts/My_posts";
+import About from "./About/About";
 import './Profile.css'
 
 const Profile = () => {
@@ -9,9 +10,7 @@ const Profile = () => {
     <img className='Profile__img'
      src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614612249_142-p-fon-dlya-fotoshopa-priroda-216.jpg" alt="" />
    </div>
-   <div>
-    photo + description
-   </div>
+   <About />
    <My_posts />
   </main>
  )

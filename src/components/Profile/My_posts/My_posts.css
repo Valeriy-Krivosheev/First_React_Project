@@ -2,3 +2,13 @@
     max-width: 50px;
     border-radius: 50%;
 }
+
+.new__post-textarea {
+    resize: none;
+    width: 500px;
+    padding: 10px;
+}
+
+.new__post-item {
+    display: flex;
+}

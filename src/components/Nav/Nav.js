@@ -7,7 +7,7 @@ const Nav = () => {
   <nav className='nav'>
   <ul className='nav__list'>
    <li className='nav__item'>
-    <NavLink className='nav__link' to="/profile"> Profile</NavLink>
+    <NavLink className='nav__link' to="/"> Profile</NavLink>
    </li>
    <li className='nav__item'>
     <NavLink  className='nav__link' to="/dialogs"> Messages</NavLink>

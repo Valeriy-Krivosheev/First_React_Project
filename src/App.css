@@ -1,3 +1,7 @@
+body {
+    background-color: #CCCCCC;
+}
+
 .app-wrapper {
     display: grid;
     grid-template-columns: 160px 10fr;
@@ -9,6 +13,6 @@
 }
 
 .main {
- grid-area: main;
-  background-color: #D7E5EE;
+    grid-area: main;
+    background-color: #D7E5EE;
 }

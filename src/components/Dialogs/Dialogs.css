@@ -1,0 +1,28 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs__list {
+    padding: 10px;
+}
+
+.dialogs__messages {
+    padding: 10px;
+}
+
+.dialog__item {
+    margin-bottom: 15px;
+    height: 20px;
+}
+
+.dialog__item.active {
+    font-weight: 700;
+}
+
+.dialog__message {
+    max-width: 500px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 20px;
+}

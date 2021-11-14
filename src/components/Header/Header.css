@@ -1,9 +1,25 @@
 .header {
     grid-area: header;
     background-color: #f4f0e8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header__logo {
     max-width: 50px;
     padding: 5px;
+}
+
+.header__top {
+    display: flex;
+}
+
+.header__top h2 {
+    margin-right: 10px;
+}
+
+.header__top img {
+    max-width: 50px;
+    border-radius: 50%;
 }

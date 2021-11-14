@@ -6,10 +6,10 @@ const Nav = () => {
   <nav className='nav'>
   <ul className='nav__list'>
    <li className='nav__item'>
-    <a className='nav__link' href="#"> Profile</a>
+    <a className='nav__link' href="/profile"> Profile</a>
    </li>
    <li className='nav__item'>
-    <a className='nav__link' href="#"> Messages</a>
+    <a  className='nav__link' href="/dialogs"> Messages</a>
    </li>
    <li className='nav__item'>
     <a className='nav__link' href="#"> News</a>

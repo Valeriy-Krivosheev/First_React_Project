@@ -1,16 +1,16 @@
 import React from "react";
 import './Post.css'
 
-const Post = () => {
+const Post = (props) => {
  return (
-    <div className='new__post'>
+  <div className='new__post'>
 
-<img src="https://ae01.alicdn.com/kf/Hb99c267b684d42ed86fdcfc6dd8c3a40M/Xxxtentacion.jpg_q50.jpg" alt="" />
-post 1
-<div className='new__post-like'>
- <button>Like</button>
- </div>     
-    </div>
+   <img src="https://ae01.alicdn.com/kf/Hb99c267b684d42ed86fdcfc6dd8c3a40M/Xxxtentacion.jpg_q50.jpg" alt="" />
+   {props.message}
+   <div className='new__post-like'>
+    <button>Like</button>
+   </div>
+  </div>
  )
 }
 export default Post;

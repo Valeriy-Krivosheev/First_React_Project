@@ -4,6 +4,11 @@
     margin-bottom: 50px;
 }
 
+.about__bground {
+    max-height: 120px;
+    width: 100%;
+}
+
 .about__item {
     display: flex;
     justify-content: space-between;

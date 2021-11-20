@@ -2,6 +2,11 @@ import React from "react";
 import './About.css';
 const About = () => {
  return (
+  <div>
+    <div>
+    <img className='about__bground'
+     src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614612249_142-p-fon-dlya-fotoshopa-priroda-216.jpg" alt="" />
+   </div>
   <div className='about'>
    <div>
     <img className='about__img' src="https://ae01.alicdn.com/kf/Hb99c267b684d42ed86fdcfc6dd8c3a40M/Xxxtentacion.jpg_q50.jpg" alt="" />
@@ -23,6 +28,7 @@ const About = () => {
     </div>
    </div>
 
+  </div>
   </div>
  )
 }

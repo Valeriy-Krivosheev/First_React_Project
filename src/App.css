@@ -15,4 +15,5 @@ body {
 .main {
     grid-area: main;
     background-color: #D7E5EE;
+    padding-bottom: 50px;
 }

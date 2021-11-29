@@ -1,6 +1,8 @@
 .nav {
     grid-area: nav;
     background-color: #f4f0e8;
+    height: 400px;
+    border-radius: 7px;
 }
 
 .nav__list {

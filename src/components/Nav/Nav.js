@@ -10,10 +10,19 @@ const Nav = () => {
     <NavLink className='nav__link' to="/"> Profile</NavLink>
    </li>
    <li className='nav__item'>
-    <NavLink  className='nav__link' to="/dialogs"> Messages</NavLink>
+    <NavLink  className='nav__link' to="/dialogs/"> Messages</NavLink>
    </li>
    <li className='nav__item'>
     <NavLink className='nav__link' to="#"> News</NavLink>
+   </li>
+   <li className='nav__item'>
+    <NavLink className='nav__link' to="#"> Friends</NavLink>
+   </li>
+   <li className='nav__item'>
+    <NavLink className='nav__link' to="#"> Communities</NavLink>
+   </li>
+   <li className='nav__item'>
+    <NavLink className='nav__link' to="#"> Photos</NavLink>
    </li>
    <li className='nav__item'>
     <NavLink className='nav__link' to="#"> Music</NavLink>
